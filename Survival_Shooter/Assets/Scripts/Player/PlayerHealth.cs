@@ -51,6 +51,11 @@ public class PlayerHealth : MonoBehaviour
 
         // Reset the damaged flag.
         damaged = false;
+
+        if(Input.GetKey("escape"))
+        {
+            Application.Quit();
+        }
     }
 
 
@@ -93,7 +98,8 @@ public class PlayerHealth : MonoBehaviour
         playerAudio.Play();
 
         // Turn off the movement and shooting scripts.
-        //playerMovement.enabled = false;
-        //playerShooting.enabled = false;
+        playerMovement.enabled = false;
+        playerShooting.enabled = false;
     }
+
 }
