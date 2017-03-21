@@ -1,0 +1,24 @@
+----Enemy Changes----
+Changed eye textures on all enemies, should also now glow a bit
+Scaled health to work better with new weapon
+Increased speed of most enemies, Zombunnies can now effective chase and Zombears no longer shuffle around. Hellephants are still slow
+Increased damage done by Zombears and Hellephants
+Added more varied spawn points
+
+----Weapon Changes----
+Changed the machine gun to a slower firing but more damaging laser
+Changed the color of both the firing effects to a laser-ish green
+Replaced the old gunshot sound with something sounding vaguely like a laser
+
+----Lighting Changes----
+Lowered overall lighting intensity, removed most ambient lighting
+Changed lighting color to a deeper red
+Added a spot light on the end of the laser gun, acts as a flashlight of sorts (seems to not exist on lower visual quality settings, tried to override that but not sure if it worked)
+Gun lighting effects are now also green
+
+----Animation Changes----
+Changed ending screen slightly
+Added additional animation for play again text
+
+----Camera Changes----
+Zoomed the camera in, preventing the player from seeing too much 
